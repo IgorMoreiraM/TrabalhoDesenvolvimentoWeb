@@ -42,18 +42,21 @@ footer {
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: stretch;
+  margin: 0px 10px;
   border-radius: 4px;
-  align-items: center;
-  margin: 0px 10px;   
 }
 
 .conteudo {
-  align-items: center;
   background: #d6d6d6;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
-.container img {
+.imagem-container {
   background: none; 
 }
 
